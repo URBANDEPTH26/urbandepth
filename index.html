@@ -99,7 +99,7 @@
   .hero-logo-mark{
     position:absolute; z-index:2;
     width:15%; min-width:100px; max-width:220px;
-    top:56%; left:56%;
+    top:56%; left:50%; transform:translateX(-50%);
     filter:drop-shadow(0 2px 6px rgba(0,0,0,0.35));
     pointer-events:none;
   }
@@ -373,7 +373,7 @@
   .back-to-top:hover{background:var(--olive);}
 
   @media (max-width:820px){
-    .hero-logo-mark{ top:52%; left:54%; width:17%; min-width:70px; }
+    .hero-logo-mark{ top:44%; left:50%; width:17%; min-width:70px; }
     .back-to-top{right:18px; bottom:18px; width:44px; height:44px;}
     .topbar{padding:8px 20px;}
     .topbar .tb-links{gap:14px;}
@@ -392,7 +392,7 @@
   }
 
   @media (max-width:480px){
-    .hero-logo-mark{ top:50%; left:52%; width:20%; min-width:60px; }
+    .hero-logo-mark{ top:41%; left:50%; width:20%; min-width:60px; }
   }
 </style>
 </head>
